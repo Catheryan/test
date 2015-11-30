@@ -1,0 +1,54 @@
+[ 2015-11-30T00:09:45+08:00 ] 127.0.0.1 /test/res/img/version_dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+ERR: 无法加载模块:Res
+
+[ 2015-11-30T00:09:45+08:00 ] 127.0.0.1 /test/res/img/version_line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+ERR: 无法加载模块:Res
+
+[ 2015-11-30T00:20:31+08:00 ] 127.0.0.1 /test/res/img/version_dot_alt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+ERR: 无法加载模块:Res
+
+[ 2015-11-30T00:20:41+08:00 ] 127.0.0.1 /test/res/img/version_dot_alt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+ERR: 无法加载模块:Res
+
+[ 2015-11-30T00:20:55+08:00 ] 127.0.0.1 /test/res/img/version_dot_alt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+ERR: 无法加载模块:Res
+
+[ 2015-11-30T00:22:41+08:00 ] 127.0.0.1 /test/res/img/version_dot_alt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+ERR: 无法加载模块:Res
+
+[ 2015-11-30T00:23:16+08:00 ] 127.0.0.1 /test/res/img/version_dot_alt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:Res
+
+[ 2015-11-30T00:24:16+08:00 ] 127.0.0.1 /test/res/img/version_dot_alt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+ERR: 无法加载模块:Res
+
+[ 2015-11-30T00:24:20+08:00 ] 127.0.0.1 /test/res/img/version_dot_alt.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+ERR: 无法加载模块:Res
+

@@ -1,0 +1,143 @@
+<link href="__PUBLIC__/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="__PUBLIC__/javascripts/admin/jquery-1.7.2.min.js"></script>
+<script src="__PUBLIC__/bootstrap/js/bootstrap.min.js"></script>
+<style>
+    ul.timeline {
+        list-style-type: none;
+        background: url("../Public/images/Bg/version_line.png") repeat-y scroll 120px 0 transparent;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    ul.timeline li {
+    : position : relative;
+        margin-bottom: 20px;
+    }
+
+    ul.timeline li .time {
+        position: absolute;
+        width: 90px;
+        text-align: right;
+        left: 0;
+        top: px;
+
+        color: #999;
+    }
+
+    ul.timeline li .version {
+        position: relative;
+        width: 290px;
+        text-align: right;
+        left: -200px;
+        top: 5px;
+        font-size: 25px;
+        line-height: 50px;
+        color: #3594cb;
+        overflow: hidden;
+    }
+
+    ul.timeline li .number {
+        position: absolute;
+        background: url("../Public/images/Bg/version_dot.png") no-repeat scroll 0 0 transparent;
+        width: 56px;
+        height: 56px;
+        left: 97px;
+        line-height: 56px;
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+
+    ul.timeline li.alt .number {
+        background: url("../Public/images/Bg/version_dot.png") no-repeat scroll 0 0 transparent;
+    }
+
+    ul.timeline li .content {
+        margin-left: 180px;
+
+    }
+
+    ul.timeline li .content div {
+        background-color: #3594cb;
+        padding: 5px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    ul.timeline li.alt .content pre {
+        background-color: #43B1F1;
+    }
+</style>
+<button type="button" class="btn btn-primary btn-lg">
+    添加会议
+</button>
+<ul class="timeline">
+    <volist name="xiMeeting" id="xiMeeting">
+    <li>
+        <div class="time">{$xiMeeting['participanttime']}</div>
+         <!--<div class="version">{$xiMeeting['title']}</div>-->
+        <div class="number"></div>
+        <div class="content">
+            <div class="row-fluid">
+                        <div class="span12">
+                            <h2>
+                                会议主题：{$xiMeeting['title']}
+                            </h2>
+                            <h4>
+                                参会人员：{$xiMeeting['participants']}
+                            </h4>
+                            <p>
+                                <strong>
+                                会议内容：{$xiMeeting['content']}
+                                </strong>
+                            </p>
+                        </div>
+                </div>
+        </div>
+    </li>
+    </volist>
+</ul>
+<script>
+    $(function () {
+
+        var nextDataNumber = 5;
+
+        var ulNode = $('ul.timeline');
+
+        function initLiNodes() {
+            var liNodes = ulNode.find('li'), count = liNodes.length, i, liNode, leftCount = nextDataNumber * 1-5;
+            for (i = 0; i < count; i++) {
+                liNode = $(liNodes.get(i));
+                if (i % 2 !== 0) {
+                    liNode.addClass('alt');
+                } else {
+                    liNode.removeClass('alt');
+                }
+                liNode.find('.number').text(leftCount + count - i);
+            }
+        }
+
+
+        $('#fetchNextData').click(function () {
+            var $this = $(this);
+            $this.addClass('disabled').text('......');
+
+            $.get('./version_data_' + nextDataNumber + '.txt', function (data) {
+                ulNode.append(data);
+                $this.removeClass('disabled').text('后二十条数据');
+                nextDataNumber--;
+
+                if (nextDataNumber === 0) {
+                    $this.hide();
+                }
+
+                initLiNodes();
+            });
+
+        });
+
+        initLiNodes();
+
+    });
+</script>
