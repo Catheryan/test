@@ -77,4 +77,14 @@ class MoreController extends CommonController{
         $this->assign('teaaddresslist',$teaaddresslist);
         $this->display();
     }
+    /**
+     * 添加会议记录
+     */
+    public function addmeeting(){
+        $this->assignMenu();
+        $moreService = D('More', 'Service');
+        $teaaddresslist =$moreService->getteaAddressList();
+        $this->assign('teaaddresslist',$teaaddresslist);
+        $this->display();
+    }
 }

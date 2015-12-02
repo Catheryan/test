@@ -175,7 +175,7 @@
         background-color: #43B1F1;
     }
 </style>
-<button type="button" class="btn btn-primary btn-lg">
+<button type="button" class="btn btn-primary btn-lg" id="addMeeting" data-target="#addMeeting">
     添加会议
 </button>
 <ul class="timeline">
@@ -245,6 +245,18 @@
 
     });
 </script>
+<script type="text/javascript">
+    $(function(){
+        // 添加记录
+        $("#addMeeting").click(function(){
+           // popup.alert("请填写完整的表单后进行登录！");
+            $('#addMeeting').modal('show');
+            //commonAjaxSubmit("<?php echo U('Index/login');?>");
+        });
+
+    });
+</script>
+
 
             </div>
         </div>

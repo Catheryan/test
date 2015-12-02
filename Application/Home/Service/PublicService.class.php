@@ -1,7 +1,7 @@
 <?php
 namespace Home\Service;
 
-class MoreService extends CommonService
+class PublicService extends CommonService
 {
     public function getteaAddressList()
     {
@@ -16,12 +16,6 @@ class MoreService extends CommonService
     }
 
     public function getXiMeeting()
-    {
-        $more = M('ximeeting');
-        $info = $more->where('id = '.$_SESSION['current_account']['id'])->select();
-        return $info;
-    }
-    public function addMeeting()
     {
         $more = M('ximeeting');
         $info = $more->where('id = '.$_SESSION['current_account']['id'])->select();

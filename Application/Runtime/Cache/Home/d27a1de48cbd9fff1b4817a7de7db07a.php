@@ -104,10 +104,7 @@
 
             <!-- right -->
             <div id="Right">
-                <link href="/test/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<script src="/test/Public/javascripts/admin/jquery-1.7.2.min.js"></script>
-<script src="/test/Public/bootstrap/js/bootstrap.min.js"></script>
-<div class="contentArea">
+                <div class="contentArea">
     <div class="Item hr">
         <div class="current">修改密码</div>
     </div>

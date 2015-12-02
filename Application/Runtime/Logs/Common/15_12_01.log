@@ -1,0 +1,26 @@
+[ 2015-12-01T18:51:22+08:00 ] ::1 /test/Application/Home/View/Course/__PUBLIC__/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+ERR: 无法加载模块:Application
+
+[ 2015-12-01T18:51:22+08:00 ] ::1 /test/Application/Home/View/Course/__PUBLIC__/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+ERR: 无法加载模块:Application
+
+on
+
+[ 2015-12-01T19:06:14+08:00 ] 127.0.0.1 /test/Publicbootstrap-modal/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+ERR: 无法加载模块:Publicbootstrap-modal
+
+[ 2015-12-01T19:06:39+08:00 ] 127.0.0.1 /test/Public/bootstrap-modal/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+ERR: 无法加载模块:Public
+

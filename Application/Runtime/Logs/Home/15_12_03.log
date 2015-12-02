@@ -1,0 +1,88 @@
+[ 2015-12-03T00:00:38+08:00 ] 127.0.0.1 /test/index.php/Home/Course/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\test\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\test\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\test\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2015-12-03T00:06:30+08:00 ] 127.0.0.1 /test/index.php/Home/Course/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\test\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\test\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\test\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-12-03T00:06:33+08:00 ] 127.0.0.1 /test/index.php/Home/Course/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\test\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\test\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\test\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2015-12-03T00:10:38+08:00 ] 127.0.0.1 /test/index.php/Home/Course/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\test\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\test\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\test\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
